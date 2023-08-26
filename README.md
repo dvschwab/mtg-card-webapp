@@ -4,9 +4,9 @@ A web application for viewing information on Magic: The Gathering cards and buil
 ## Technologies
 
 Code:
-ASP.NET Web Forms
-Python
-Linux shell
+* ASP.NET Web Forms
+* Python
+* Linux shell
 
 Database:
 mySQL provised through AWS
