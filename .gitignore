@@ -57,3 +57,5 @@
 /.vs/mtg-card-webapp/FileContentIndex
 /.vs/mtg-card-webapp/v17
 /.vs
+/MTGCardFile/MTGCardFile/MTGCardFile/bin/Debug/net6.0-windows
+/MTGCardFile/MTGCardFile/MTGCardFile/obj
