@@ -8,8 +8,6 @@
         public int CastingCost { get; set; }
         public string CardBio { get; set; }
 
-        public CardObject() { }
-
         public CardObject(string cardName, string setName, List<string> manaType, int castingCost, string cardBio)
         {
             CardName = cardName;

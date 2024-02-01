@@ -2,24 +2,22 @@
 {
     public class CreatureCard : CardObject
     {
-        public string SpeciesCard { get; set; }
+        public string Species { get; set; }
         public List<string> SpecialAbilities { get; set; }
 
-        public int SpeciesPower { get; set; }
+        public int Power { get; set; }
 
-        public int SpeciesToughness { get; set; }
+        public int Toughness { get; set; }
 
         public bool LegendaryCreature { get; set; }
 
-        public CreatureCard() { }
-
-        public CreatureCard(string speciesCard, List<string> specialAbilities, int speciesPower, int speciesToughness, bool legendaryCreature) : base()
+        public CreatureCard(string cardName, string setName, List<string> manaType, int castingCost, string cardBio, string species, List<string> specialAbilities, int power, int toughness, bool legendaryCreature) : base(cardName, setName, manaType, castingCost, cardBio)
         {
 
-            SpeciesCard = speciesCard;
+            Species = species;
             SpecialAbilities = specialAbilities;
-            SpeciesPower = speciesPower;
-            SpeciesToughness = speciesToughness;
+            Power = power;
+            Toughness = toughness;
             LegendaryCreature = legendaryCreature;
         }
     }

@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\inetpub\MTGCardFile</_PublishTargetUrl>
-    <History>True|2024-02-01T00:10:17.2549326Z;True|2023-12-26T16:44:20.1123362-05:00;False|2023-12-26T16:42:06.9176014-05:00;</History>
+    <History>True|2024-02-01T00:24:53.4369170Z;False|2024-01-31T19:24:01.4564627-05:00;True|2024-01-31T19:21:46.2354806-05:00;True|2024-01-31T19:10:17.2549326-05:00;True|2023-12-26T16:44:20.1123362-05:00;False|2023-12-26T16:42:06.9176014-05:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
