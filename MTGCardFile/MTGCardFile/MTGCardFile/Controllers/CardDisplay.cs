@@ -5,9 +5,11 @@ namespace MTGCardFile.Controllers
 {
     public class CardDisplay : Controller
     {
-        public IActionResult Index()
+        public IActionResult ShowCard()
         {
             CreatureCard barbaryApes = new CreatureCard("Barbary Apes", "Revised", new List<string> { "2 Forest" }, 3, "Damn Dirty Apes!", "Ape", new List<string> { "None" }, 2, 2, false);
+
+            ViewBag.CreatureName = barbaryApes.CardName;
             
             return View();
         }
