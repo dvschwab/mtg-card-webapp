@@ -11,7 +11,7 @@
 
         public bool LegendaryCreature { get; set; }
 
-        public CreatureCard(string cardName, string setName, List<ManaTypes> manaType, int castingCost, string cardBio, string species, List<string> specialAbilities, int power, int toughness, bool legendaryCreature) : base(cardName, setName, manaType, castingCost, cardBio)
+        public CreatureCard(string cardName, string setName, List<ManaType> manaType, int castingCost, string cardBio, string species, List<string> specialAbilities, int power, int toughness, bool legendaryCreature) : base(cardName, setName, manaType, castingCost, cardBio)
         {
 
             Species = species;

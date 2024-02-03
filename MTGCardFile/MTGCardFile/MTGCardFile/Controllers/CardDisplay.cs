@@ -7,9 +7,15 @@ namespace MTGCardFile.Controllers
     {
         public IActionResult ShowCard()
         {
-            CreatureCard barbaryApes = new CreatureCard("Barbary Apes", "Revised", new List<CardObject.ManaTypes> {}, 3, "Damn Dirty Apes!", "Ape", new List<string> { "None" }, 2, 2, false);
 
-            ViewBag.CreatureName = barbaryApes.CardName;
+            List<ManaType> newCardMana = new List<ManaType>();
+            ManaType Foreest = new ManaType("Forest", "");
+            ManaType Colorless = new ManaType("Colorless", "");
+            newCardMana.Add(Foreest);
+            newCardMana.Add(Colorless);
+
+            CardObject newCard = new CardObject("Scryb Sprites", "Revised", newCardMana, 2, "Flying elves are back!");
+            string jsonCard = newCard.toJson();
             
             return View();
         }
